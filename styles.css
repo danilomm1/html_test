@@ -1,0 +1,45 @@
+
+@import url("styles/header2.css");
+@import url("styles/sidebar.css");
+@import url("styles/icons.css");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+ --cor-primaria: #ffffff;
+ --cor-secundaria: rgba(209, 209, 209, 0.367);
+ --cor-de-fundo: #ededed;
+
+ --branco: #ffffff;
+ --laranja: rgb(255, 107, 1);
+ --azul-degrade: linear-gradient(97.58deg,#002F52 35.49%, #326589 165.37%);
+ --degrade-cinza-branco: linear-gradient(to right, grey, white);
+ --fonte-principal: 'Poppins', sans-serif;
+ --fonte-secundaria: 'Krona One', sans-serif;
+ --fundo-logo: #575d6500;
+ --cor-texto-logo: #002F52;
+ --cor-texto-links: #002F52;
+ --cor-hover-icone: #21CCFC;
+ --cor-ultima-borda-acordeon:#363636;
+ --cor-fundo-acordeon: #36363617;
+ --cor-fundo-acordeon-label:#ffffff1b;
+ --cor-fundo-acordeon-hover: #326589;
+ --cor-fundo-subitem-acordeon: #d1ced1;
+ --cor-borda-esquerda-selecionada: #74bef3;
+ --cor-item-selecionado:#326589;
+ --cor-letra-acordeon:#4d4d4d;
+ --cor-borda-acordeon:#0a0a0a;
+ --cor-texto-item-selecionado: #ffffff;
+ --cor-texto-item-hover:#ffffff;
+ 
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-family:  var(--fonte-principal);
+    font-size:16px;
+    font-weight: 400;
+}
